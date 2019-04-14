@@ -20,6 +20,7 @@ class CrewDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.black,
         body: Container(
             child: CustomScrollView(slivers: <Widget>[
               SliverAppBar(
@@ -109,6 +110,7 @@ class _CrewInfoWidgetState extends State<_CrewInfoWidget> {
 
     if(actor.birthday != null){
       widgets.add(Container(
+
         margin: EdgeInsets.all(10),
         child: Text("Birthday: ${actor.birthday}", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
       ));
@@ -120,6 +122,7 @@ class _CrewInfoWidgetState extends State<_CrewInfoWidget> {
     ));
 
     return Flex(
+
         direction: Axis.vertical,
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.start,
