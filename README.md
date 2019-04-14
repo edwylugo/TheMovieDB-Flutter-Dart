@@ -12,54 +12,55 @@ List of third-party libraries that were used:
   - flutter_search_bar: ^2.0.7
   - url_launcher: ^4.0.3
 
-#Intl
+##Intl
 
-This package provides internationalization and localization facilities, including message translation, plurals and genders, date/number formatting and parsing, and bidirectional text.
+> This package provides internationalization and localization facilities, including message translation, plurals and genders, date/number formatting and parsing, and bidirectional text.
 
 URL: https://pub.dartlang.org/packages/intl
 
-#http
+##http
 
-This package contains a set of high-level functions and classes that make it easy to consume HTTP resources. It's platform-independent, and can be used on both the command-line and the browser.
+> This package contains a set of high-level functions and classes that make it easy to consume HTTP resources. It's platform-independent, and can be used on both the command-line and the browser.
 
 URL: https://pub.dartlang.org/packages/http
 
-#share
+##share
 
-A Flutter plugin to share content from your Flutter app via the platform's share dialog.
+> A Flutter plugin to share content from your Flutter app via the platform's share dialog.
 Wraps the ACTION_SEND Intent on Android and UIActivityViewController on iOS.
 
-URL: https://pub.dartlang.org/packages/share
+**URL:** https://pub.dartlang.org/packages/share
 
-#transparent_image
+##transparent_image
 
-A simple transparent image. Represented as a Uint8List, which was originally extracted from the Flutter codebase (was private in the test package). It's a silly, simple library, but I found I needed transparent images in a few projects and found this is the simplest way to represent it :)
+> A simple transparent image. Represented as a Uint8List, which was originally extracted from the Flutter codebase (was private in the test package). It's a silly, simple library, but I found I needed transparent images in a few projects and found this is the simplest way to represent it :)
 
-URL: https://pub.dartlang.org/packages/transparent_image
+**URL:** https://pub.dartlang.org/packages/transparent_image
 
-#logging
+##logging
 
-By default, the logging package does not do anything useful with the log messages. You must configure the logging level and add a handler for the log messages.
+> By default, the logging package does not do anything useful with the log messages. You must configure the logging level and add a handler for the log messages.
 
-URL: https://pub.dartlang.org/packages/logging
+**URL:** https://pub.dartlang.org/packages/logging
 
-#cached_network_image
+##cached_network_image
 
-Widget now uses builders for the placeholder and error widget and uses sqflite for cache management. 
+> Widget now uses builders for the placeholder and error widget and uses sqflite for cache management. 
 
-URL: https://pub.dartlang.org/packages/cached_network_image
+**URL:** https://pub.dartlang.org/packages/cached_network_image
 
-#url_launcher
+##url_launcher
 
-A Flutter plugin for launching a URL in the mobile platform. Supports iOS and Android.
+> A Flutter plugin for launching a URL in the mobile platform. Supports iOS and Android.
 
-URL: https://pub.dartlang.org/packages/url_launcher
+**URL:** https://pub.dartlang.org/packages/url_launcher
 
-#Screenshots:
-![TheMovieDBFlutter](https://github.com/edwylugo/TheMovieDBFlutter/blob/master/screenshots/01_LaunchScreen.png?raw=true)
-![TheMovieDBFlutter](https://github.com/edwylugo/TheMovieDBFlutter/blob/master/screenshots/02_Home.png?raw=true)
-![TheMovieDBFlutter](https://github.com/edwylugo/TheMovieDBFlutter/blob/master/screenshots/03_ScrollView.png?raw=true)
-![TheMovieDBFlutter](https://github.com/edwylugo/TheMovieDBFlutter/blob/master/screenshots/04_DetailsMovies.png?raw=true)
-![TheMovieDBFlutter](https://github.com/edwylugo/TheMovieDBFlutter/blob/master/screenshots/05_ModeDetails.png?raw=true)
-![TheMovieDBFlutter](https://github.com/edwylugo/TheMovieDBFlutter/blob/master/screenshots/06_Search.png?raw=true)
+##Screenshots:
+
+![TheMovieDBFlutter](screenshots/01_LaunchScreen.png)
+![TheMovieDBFlutter](screenshots/02_Home.png)
+![TheMovieDBFlutter](screenshots/03_ScrollView.png)
+![TheMovieDBFlutter](screenshots/04_DetailsMovies.png)
+![TheMovieDBFlutter](screenshots/05_ModeDetails.png)
+![TheMovieDBFlutter](screenshots/06_Search.png)
 
