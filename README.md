@@ -57,6 +57,7 @@ Wraps the ACTION_SEND Intent on Android and UIActivityViewController on iOS.
 
 ## Screenshots:
 
+![TheMovieDBFlutter](screenshots/themoviedb.gif)
 ![TheMovieDBFlutter](screenshots/01_LaunchScreen.png)
 ![TheMovieDBFlutter](screenshots/02_Home.png)
 ![TheMovieDBFlutter](screenshots/03_ScrollView.png)
